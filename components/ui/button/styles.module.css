@@ -1,0 +1,40 @@
+
+.contained, .outlined {
+    @apply rounded-md
+}
+
+.contained.md, .outlined.md {
+    @apply px-6 py-2 text-sm font-semibold
+}
+
+.contained.sm, .outlined.sm {
+    @apply px-5 py-1 text-sm font-semibold
+}
+
+.contained.lg, .outlined.lg {
+    @apply px-6 py-3 font-bold
+}
+
+.contained.primary {
+    @apply bg-[#564CCF]
+}
+
+.contained.secondary {
+    @apply bg-[#343434]
+}
+
+.outlined.primary {
+    @apply border border-[#564CCF]
+}
+
+.text {
+    @apply p-0
+}
+
+.text.primary {
+    @apply text-[#564CCF]
+}
+
+.text.secondary {
+    @apply text-[#343434]
+}

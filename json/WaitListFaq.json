@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "title": "What is Movu?",
+    "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quidem dolorem iusto unde veritatis fugit fugiat, error optio provident sint nobis! Iure quo hic quidem voluptatem optio! Dolorum, ipsam sint?"
+  },
+  {
+    "id": "2",
+    "title": "What is your cancellation policy?",
+    "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quidem dolorem iusto unde veritatis fugit fugiat, error optio provident sint nobis! Iure quo hic quidem voluptatem optio! Dolorum, ipsam sint?"
+  },
+  {
+    "id": "3",
+    "title": "How does billing work?",
+    "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quidem dolorem iusto unde veritatis fugit fugiat, error optio provident sint nobis! Iure quo hic quidem voluptatem optio! Dolorum, ipsam sint?"
+  },
+  {
+    "id": "4",
+    "title": "How do I change my account email?",
+    "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quidem dolorem iusto unde veritatis fugit fugiat, error optio provident sint nobis! Iure quo hic quidem voluptatem optio! Dolorum, ipsam sint?"
+  }
+]

@@ -1,0 +1,12 @@
+
+.textField {
+    @apply bg-white rounded-md text-black outline-none
+}
+
+.textField.md {
+    @apply px-6 py-2 text-sm 
+}
+
+.textField.lg {
+    @apply px-6 py-3
+}

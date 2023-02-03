@@ -1,6 +1,12 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import "../assets/main.css";
+import "../assets/chrome-bug.css";
+import type { AppProps } from "next/app";
+import { ThemeProvider } from "next-themes";
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+    <ThemeProvider defaultTheme="dark">
+      <Component {...pageProps} />
+    </ThemeProvider>
+  );
 }
