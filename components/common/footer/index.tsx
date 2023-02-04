@@ -8,9 +8,9 @@ const Footer: FC = () => {
 
   return (
     <Container>
-      <div className="px-20 pt-24 pb-12">
-        <div className="flex justify-between gap-24">
-          <div className="flex-1 max-w-xs">
+      <div className="px-20 pt-24 pb-12 max-md:px-0">
+        <div className="flex justify-between gap-24 flex-wrap max-md:gap-x-10 max-sm:flex-col max-sm:items-center">
+          <div className="flex-1 max-w-xs max-md:max-w-sm max-sm:text-center">
             <h4 className="font-semibold mb-5">ABOUT</h4>
             <p className="text-[#C1C1C1] text-sm">
               Movu africa ia a streaming site that helps film maker upload their
@@ -18,7 +18,7 @@ const Footer: FC = () => {
             </p>
           </div>
 
-          <div className="flex-1 max-w-xs">
+          <div className="flex-1 max-w-xs max-md:max-w-sm max-sm:text-center">
             <h4 className="font-semibold mb-5">PRODUCT</h4>
             <Link
               href={""}
@@ -40,7 +40,7 @@ const Footer: FC = () => {
             </Link>
           </div>
 
-          <div className="flex-1 max-w-xs">
+          <div className="flex-1 max-w-xs max-md:max-w-sm max-sm:text-center">
             <h4 className="font-semibold mb-5">HELP</h4>
             <Link
               href={""}
@@ -56,13 +56,13 @@ const Footer: FC = () => {
             </Link>
           </div>
 
-          <div className="flex-1 max-w-xs">
+          <div className="flex-1 max-w-xs max-md:max-w-sm max-sm:text-center">
             <h4 className="font-semibold mb-5">CONTACT US</h4>
           </div>
         </div>
 
         <div className="pt-12">
-          <div className="flex justify-between gap-4">
+          <div className="flex justify-between gap-4 max-md:flex-col max-md:items-center">
             <p className="flex-1">
               {" "}
               <span className="font-bold text-black bg-white rounded-full w-5 h-5 p-1 inline-flex items-center justify-center">

@@ -9,7 +9,7 @@ interface Props {
 const FaqContainer: FC<Props> = ({ data }) => {
   return (
     <Container>
-      <div className="px-32 py-10">
+      <div className="px-32 py-10 max-md:px-0 ">
         {data.map((item) => (
           <FaqItem {...item} key={item.id} />
         ))}

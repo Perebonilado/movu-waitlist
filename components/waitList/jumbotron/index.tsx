@@ -14,7 +14,7 @@ const Jumbotron: FC = () => {
           <h1 className="text-center text-5xl font-extrabold mb-8">
             lot more.
           </h1>
-          <p className="text-[#C1C1C1] text-2xl mb-5">
+          <p className="text-[#C1C1C1] text-2xl mb-5 text-center">
             join movu to stream hd quality movies.
           </p>
           <Button text="join the waitlist" size="lg" />

@@ -9,7 +9,7 @@ interface Props {
 const ImageTextBoxContainer: FC<Props> = ({ data }) => {
   return (
     <Container>
-      <div className="px-20">
+      <div className="px-20 max-lg:px-0">
         {data.map((item, index) => (
           <ImageTextBox {...item} key={index} />
         ))}

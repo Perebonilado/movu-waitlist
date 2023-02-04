@@ -10,7 +10,7 @@ const Container: React.FC<PropsWithChildren<Props>> = ({
 }) => {
   const rootClassName = cn(styles.root, className);
 
-  return <div className={rootClassName}>{children}</div>;
+  return <div className={`${rootClassName} max-sm:!px-3`}>{children}</div>;
 };
 
 export default Container;

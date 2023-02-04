@@ -35,7 +35,7 @@ const Navbar: FC = () => {
               text="join the waitlist"
               variant="contained"
               color="primary"
-              className="mr-3"
+              className="mr-3 max-md:hidden"
               size="md"
             />
             <Button
