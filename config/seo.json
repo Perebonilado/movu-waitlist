@@ -1,0 +1,27 @@
+{
+    "title": "Movu | Join Waitlist",
+    "titleTemplate": "%s - Movu",
+    "description": "Movu - https://www.movu.africa",
+    "openGraph": {
+      "title": "Movu | Join Waitlist",
+      "description": "Movu - https://www.movu.africa",
+      "type": "website",
+      "locale": "en_NG",
+      "url": "https://www.movu.africa",
+      "site_name": "Movu",
+      "images": [
+        {
+          "url": "/movu-logo-black.png",
+          "width": 800,
+          "height": 600,
+          "alt": "Movu"
+        }
+      ]
+    },
+    "twitter": {
+      "handle": "@movu.africa",
+      "site": "@movu.africa",
+      "cardType": "summary_large_image"
+    }
+  }
+  
