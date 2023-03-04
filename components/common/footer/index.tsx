@@ -2,6 +2,10 @@ import React, { FC } from "react";
 import Container from "@/components/ui/container";
 import Link from "next/link";
 import Image from "next/image";
+import Facebook from "@/components/icons/Facebook";
+import LinkedIn from "@/components/icons/LinkedIn";
+import Twitter from "@/components/icons/Twitter";
+import Instagram from "@/components/icons/Instagram";
 
 const Footer: FC = () => {
   const currentYear = new Date().getFullYear();
@@ -58,6 +62,20 @@ const Footer: FC = () => {
 
           <div className="flex-1 max-w-xs max-md:max-w-sm max-sm:text-center">
             <h4 className="font-semibold mb-5">CONTACT US</h4>
+            <div className="flex items-center gap-4">
+              <span className="cursor-pointer">
+                <Facebook />
+              </span>
+              <span className="cursor-pointer">
+                <LinkedIn />
+              </span>
+              <span className="cursor-pointer">
+                <Twitter />
+              </span>
+              {/* <span className="cursor-pointer">
+                <Instagram />
+              </span> */}
+            </div>
           </div>
         </div>
 

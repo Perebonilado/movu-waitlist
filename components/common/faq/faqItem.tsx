@@ -13,12 +13,12 @@ const FaqItem: FC<Props> = ({ title, body }) => {
 
   return (
     <div className="w-full">
-      <div className="flex justify-between items-center pb-6 pt-6 :first-child:pt-0 :last-child:pb-0">
+      <div
+        onClick={() => setIsOpen(!isOpen)}
+        className="cursor-pointer flex justify-between items-center pb-6 pt-6 :first-child:pt-0 :last-child:pb-0"
+      >
         <h3 className="font-semibold">{title}</h3>
-        <i
-          className="cursor-pointer border-2 rounded-full"
-          onClick={() => setIsOpen(!isOpen)}
-        >
+        <i className="border-2 rounded-full">
           {isOpen ? (
             <Minus className="w-4 h-4 stroke-2" />
           ) : (
@@ -29,9 +29,7 @@ const FaqItem: FC<Props> = ({ title, body }) => {
 
       <div
         className={`border-b border-[#747474] overflow-hidden transition-all ease-in-out duration-500 text-sm
-        ${
-          isOpen ? "max-h-96" : "max-h-0"
-        }`}
+        ${isOpen ? "max-h-96" : "max-h-0"}`}
       >
         <p className="text-[#B7B7B7] pb-6 w-full max-w-xl">{body}</p>
       </div>

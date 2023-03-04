@@ -10,3 +10,7 @@
 .textField.lg {
     @apply px-6 py-3
 }
+
+.textField.dark {
+    @apply bg-[#1C1C1D] placeholder:text-[#969696]
+}

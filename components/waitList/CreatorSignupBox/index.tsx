@@ -8,7 +8,7 @@ import Button from "../../ui/button";
 const CreatorSignupBox: FC = () => {
   return (
     <Container>
-      <div className="flex justify-between h-screen  px-20 max-lg:px-0 max-md:flex-col">
+      <div className="flex justify-between h-screen  px-20 max-lg:px-0 max-md:flex-col mt-20">
         <div className="flex-1">
           <h1 className="text-4xl font-extrabold mb-5 max-md:text-center">
             Want to be a <span className="text-[#7164E6]">Creator</span> on
@@ -24,6 +24,7 @@ const CreatorSignupBox: FC = () => {
               className="w-72 !rounded-tr-none !rounded-br-none max-lg:w-56 max-md:w-80 max-sm:w-full max-sm:!rounded-tr-md max-sm:!rounded-br-md"
               placeholder="Email address"
               size="lg"
+              variant="dark"
             />
             <Button
               text="Sign up"
@@ -32,11 +33,11 @@ const CreatorSignupBox: FC = () => {
             />
           </div>
         </div>
-        <div className="flex-1 h-full flex justify-center items-center p-4">
-          <div className="relative w-full h-full max-w-sm max-sm:mt-14 xl:max-w-xl">
+        <div className="flex-1 h-full flex justify-center p-4">
+          <div className="relative w-full h-full w-full h-full max-w-[200px] max-h-[200px]">
             <Image
               src={
-                "https://res.cloudinary.com/dt0wfaxft/image/upload/v1675433192/Pro_Display_XDR_Front_View_Mockup_ferj0r.png"
+                "/waitlist/creator-signup.png"
               }
               alt={"illustration"}
               fill={true}
