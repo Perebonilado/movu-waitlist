@@ -19,6 +19,7 @@ export default function Document() {
           href="https://fonts.cdnfonts.com/css/sf-pro-display"
           rel="stylesheet"
         />
+        <link rel="preload" href="/waitlist/jumbotron-bg.png" as="image"/>
       </Head>
       <body>
         <Main />
