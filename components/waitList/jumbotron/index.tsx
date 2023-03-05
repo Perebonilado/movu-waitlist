@@ -8,15 +8,13 @@ const Jumbotron: FC = () => {
   return (
     <div
       className={`h-screen bg-[url('/waitlist/jumbotron-bg.png')] mb-10}`}
+      style={{
+        background:
+          "linear-gradient(0deg, rgba(0, 0, 0, 0.75) 9.67%, rgba(0, 0, 0, 0) 41.82%) url(/waitlist/jumbotron-bg) center center/cover",
+      }}
     >
-      <div
-        style={{
-          background:
-            "linear-gradient(0deg, rgba(0, 0, 0, 0.75) 9.67%, rgba(0, 0, 0, 0) 41.82%) url(/waitlist/jumbotron-bg) center center/cover",
-        }}
-      >
-        <img src="/waitlist/jumbotron-bg.png" style={{display: "none"}}/>
-      </div>
+      <img src="/waitlist/jumbotron-bg.png" style={{display: "none"}}/>
+
       <Container className="h-full">
         <div className="flex justify-center items-center h-full flex-col pt-20">
           <h1 className="text-center text-5xl font-extrabold">
