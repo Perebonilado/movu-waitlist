@@ -1,12 +1,12 @@
 [
   {
     "title": "Stream unlimited movies",
-    "imageUrl": "/waitlist/stream-unlimited.png",
+    "imageUrl": "https://res.cloudinary.com/dt0wfaxft/image/upload/v1675433192/Pro_Display_XDR_Front_View_Mockup_ferj0r.png",
     "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quae cumque optio velit consequatur eius architecto at temporibus quidem odio perspiciatis facilis, veritatis rem omnis corporis, quasi earum. Quisquam, eligendi."
   },
   {
     "title": "Stream on web and mobile devices",
-    "imageUrl": "/waitlist/stream-on-web.png",
+    "imageUrl": "https://res.cloudinary.com/dt0wfaxft/image/upload/v1675433501/iPhone_14_Pro_rruiun.png",
     "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quae cumque optio velit consequatur eius architecto at temporibus quidem odio perspiciatis facilis, veritatis rem omnis corporis, quasi earum. Quisquam, eligendi."
   }
 ]
