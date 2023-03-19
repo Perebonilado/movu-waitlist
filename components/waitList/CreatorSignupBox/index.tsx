@@ -34,7 +34,7 @@ const CreatorSignupBox: FC = () => {
           </div>
         </div>
         <div className="flex-1 h-full flex justify-center p-4">
-          <div className="relative w-full h-full w-full h-full max-w-[200px] max-h-[200px]">
+          <div className="relative w-full h-full max-w-[250px] max-h-250px]">
             <Image
               src={
                 "/waitlist/creator-signup.png"
